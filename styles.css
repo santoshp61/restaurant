@@ -5,6 +5,7 @@ body {
     color: #333;
     image-resolution: 10px;
 }
+
 .goku {
     margin: 0%;
     text-align: right;
@@ -57,6 +58,7 @@ body {
     width: 80%;
     margin: 0%;
     float: none;
+    display: auto;
 
 }
 
@@ -121,20 +123,31 @@ section {
     text-align: center;
 }
 
-.contact {
+.naruto {
     width: 50%;
     float: left;
 }
 
-.about{
+.luffy {
     width: 50%;
     float: right;
 }
 
-.down{
+.down {
     width: auto;
     padding-bottom: 10px;
     float: inline-end;
+
+}
+
+.aqua{
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+
+
 
 }
 footer {
@@ -143,3 +156,44 @@ footer {
     text-align: center;
    float: none;
 }
+.container {
+    padding: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forgot-password-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password-form p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 5%;
+   
+    color: rgb(235, 149, 149);
+    border:rgb(235, 149, 149);
+    font-size: 10px;
+    float: right;
+  }
+  
+  button:hover {
+    background-color: #4585ce;
+  }
+  
+  #message {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #47ace7;
+  }
